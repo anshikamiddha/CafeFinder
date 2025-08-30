@@ -34,7 +34,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
             <img
               src={user.imageUrl}
               alt="user avatar"
-              className="w-20 h-20 rounded-full mx-auto"
+              className="w-20 h-20 rounded-full mx-auto cursor-pointer"
             />
             <h1 className="mt-2 text-lg font-semibold">{user.fullName}</h1>
           </>
@@ -46,6 +46,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         <NavLink
           key={to}
           to={to}
+
           end={to === '/ai'}
           onClick={() => setSidebar(false)}
           className={({ isActive }) =>
@@ -74,7 +75,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
           </button>
           <button
             onClick={() => signOut()}
-            className="w-full bg-red-500 hover:bg-red-600 text-white py-2 rounded"
+            className="w-full bg-primary hover:bg-red-600 text-white py-2 rounded"
           >
             Sign Out
           </button>
