@@ -32,7 +32,8 @@ const CreationItem = ({ item }) => {
         </div>
       ) : (
         <div className='mt-3 h-full overflow-y-scroll text-sm text-slate-700'>
-          <div>
+          <div className='reset-tw'> 
+            {/* reset tailwind so that all the tailwind must be removed from it */}
             <Markdown>{item.content}</Markdown>
             
           </div>
