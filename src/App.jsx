@@ -10,6 +10,7 @@ import GenerateImage from './pages/GenerateImage';
 import Removebackground from './pages/Removebackground';
 import RemoveObject from './pages/RemoveObject';
 import ReviewResume from './pages/ReviewResume';
+import Community from './pages/Community';
 
 
 
@@ -29,6 +30,7 @@ const App = () => {
     <Route path='Removebackground' element={<Removebackground/>}/>
     <Route path='RemoveObject' element={<RemoveObject/>}/>
     <Route path='ReviewResume' element={<ReviewResume/>}/>
+        <Route path='Community' element={<Community/>}/>
    
     </Route>
   </Route>
