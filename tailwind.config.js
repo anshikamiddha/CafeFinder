@@ -1,11 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.mjs
 export default {
-  content: [
-    "./index.html",      // if using Vite
-    "./src/**/*.{js,ts,jsx,tsx}", // for React files
-  ],
-  theme: {
-    extend: {},
-  },
-   plugins: [require("daisyui")],
-};
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: { extend: {} },
+  plugins: [],
+}
