@@ -9,7 +9,7 @@ import { PopularCafes } from "./components/popular-cafes.jsx";
 import { Testimonials } from "./components/testimonials.jsx";
 import { CtaSection } from "./components/cta-section.jsx";
 import { Footer } from "./components/footer.jsx";
-import { CafeFinder } from "./components/cafe-finder.jsx";
+import { CafeFinder } from "./components/CafeFinder.jsx";
 import { CafeDetail } from "./components/cafe-detail.jsx";
 import { OrderTracking } from "./components/order-tracking.jsx";
 import { RestaurantDashboard } from "./components/restaurant-dashboard.jsx";

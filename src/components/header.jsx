@@ -2,6 +2,7 @@ import { MapPin, User, ShoppingBag, Search } from "lucide-react";
 import { Button } from "./ui/button.jsx";
 import { Badge } from "./ui/badge.jsx";
 import React from "react";
+// import { MapPin,Search } from "lucide-react";
 
 export function Header({ currentView, onViewChange, cartItems }) {
   return (

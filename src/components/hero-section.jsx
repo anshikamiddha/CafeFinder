@@ -26,9 +26,9 @@ export function HeroSection({ onGetStarted }) {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 text-white">
               <Button size="lg" onClick={onGetStarted} className="text-base group">
-                <MapPin className="mr-2 h-5 w-5 group-hover:animate-pulse" />
+                <MapPin className="mr-2 h-5 w-5 text-white group-hover:animate-pulse" />
                 Find Cafes Near Me
               </Button>
               <Button variant="outline" size="lg" className="text-base group">
